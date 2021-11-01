@@ -43,8 +43,7 @@ namespace Aircompany
 
         public PassengerPlane GetPassengerPlaneWithMaxPassengersCapacity()
         {
-            List<PassengerPlane> passengerPlanes = GetPassengersPlanes();
-            return passengerPlanes.Aggregate((w, x) => w.PassengersCapacityIs() > x.PassengersCapacityIs() ? w : x);             
+            return GetPassengersPlanes().Aggregate((w, x) => w.PassengersCapacityIs() > x.PassengersCapacityIs() ? w : x);             
         }
 
         public List<MilitaryPlane> GetTransportMilitaryPlanes()
@@ -53,10 +52,9 @@ namespace Aircompany
             List<MilitaryPlane> militaryPlanes = GetMilitaryPlanes();
             for (int i = 0; i < militaryPlanes.Count; i++)
             {
-                MilitaryPlane plane = militaryPlanes[i];
-                if (plane.PlaneTypeIs() == MilitaryType.TRANSPORT)
+                if (militaryPlanes[i].PlaneTypeIs() == MilitaryType.TRANSPORT)
                 {
-                    transportMilitaryPlanes.Add(plane);
+                    transportMilitaryPlanes.Add(militaryPlanes[i]);
                 }
             }
 
