@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\3 курс\\1 семестр\\EPAM\\aircompany\\NetCore\\NetCore\\AirCompany.csproj": {}
+    "D:\\University\\Cours 3\\epam\\My\\aircompany\\NetCore\\NetCore\\AirCompany.csproj": {}
   },
   "projects": {
-    "E:\\3 курс\\1 семестр\\EPAM\\aircompany\\NetCore\\NetCore\\AirCompany.csproj": {
+    "D:\\University\\Cours 3\\epam\\My\\aircompany\\NetCore\\NetCore\\AirCompany.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\3 курс\\1 семестр\\EPAM\\aircompany\\NetCore\\NetCore\\AirCompany.csproj",
+        "projectUniqueName": "D:\\University\\Cours 3\\epam\\My\\aircompany\\NetCore\\NetCore\\AirCompany.csproj",
         "projectName": "AirCompany",
-        "projectPath": "E:\\3 курс\\1 семестр\\EPAM\\aircompany\\NetCore\\NetCore\\AirCompany.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "E:\\3 курс\\1 семестр\\EPAM\\aircompany\\NetCore\\NetCore\\obj\\",
+        "projectPath": "D:\\University\\Cours 3\\epam\\My\\aircompany\\NetCore\\NetCore\\AirCompany.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\University\\Cours 3\\epam\\My\\aircompany\\NetCore\\NetCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -63,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
